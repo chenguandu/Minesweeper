@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Minesweeper <img src="https://img.alicdn.com/imgextra/i3/O1CN01sMUftH1WAB0m3EG8W_!!6000000002747-2-tps-357-356.png" alt="Bomb Icon" width="30"></h1>
+        <div id="status">
+            <span id="bomb-count">Bombs: 0</span>
+            <span id="flag-count">Flags: 0</span>
+        </div>
+    </header>
+    <main>
+        <div class="board"></div>
+        <button id="reset-button">New Game</button>
+    </main>
+    <div id="overlay" class="hidden">
+        <div id="message"></div>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
